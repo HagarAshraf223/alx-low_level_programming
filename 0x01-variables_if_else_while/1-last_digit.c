@@ -4,12 +4,10 @@
 
 
 /**
- * main - entry point
+ * main - prints the last digit of a randomaly generated number
+ * and whether it is greater than 5, less than 6, or 0.
  *
- * Description: print the value of n status:
- *		greater than, is zero and is not less than 6.
- *
- * Return: 0 (success)
+ * Return: Always 0.
 */
 int main(void)
 {
