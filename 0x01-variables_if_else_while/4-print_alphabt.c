@@ -2,23 +2,25 @@
 
 /**
 * main - Entry point
-*
-* Description: print all alphabet letters except q and e
-* Return: Always 0 (success)
+* Description: prints all lowercase alphabet except e and q
+* Return:Always 0 (success)
 */
 int main(void)
 {
-	char ch = 'a';
+char lowerCase = 'a';
 
-	while
-		(ch <= 'z');
-	{
-		if (ch == 'e' || ch == 'q')
-			ch++;
-		putchar(ch);
-		ch++;
-	}
-	putchar('\n');
-
-	return (0);
+while (lowerCase <= 'z')
+{
+if (lowerCase == 'e' || lowerCase == 'q')
+{
+lowerCase += 1;
+}
+else
+{
+putchar(lowerCase);
+lowerCase += 1;
+}
+}
+putchar('\n');
+return (0);
 }
