@@ -1,0 +1,11 @@
+*help.txt*	For Vim version 8.1.  Last change: 2019 Jul 21
+
+			VIM - main help file
+									 k
+      Move around:  Use the cursor keys, or "h" to go left,	       h   l
+		    "j" to go down, "k" to go up, "l" to go right.	 j
+Close this window:  Use ":q<Enter>".
+   Get out of Vim:  Use ":qa!<Enter>" (careful, all changes are lost!).
+
+Jump to a subject:  Position the cursor on a tag (e.g. |bars|) and hit CTRL-].
+   With the mouse:  ":set mouse=a" to enable the mouse (in xterm or GUI).
