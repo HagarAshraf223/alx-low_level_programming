@@ -19,13 +19,13 @@ int numlength(int num)
 		num = num / 10;
 		length += 1;
 	}
-	return (length)
+	return (length);
 }
 /**
  * main - Entry point
  *
  * Description: prints the first 98 fibonacci numbers
- * 	starting with 1 and 2 followed by a new line 
+ * starting with 1 and 2 followed by a new line
  *
  * Return: Always 0 (Success)
 */
@@ -45,7 +45,7 @@ int main(void)
 			printf("%d", 0);
 			initia10s--;
 		}
-		printf ("%lu", f1);
+		printf("%lu", f1);
 
 		sum = (f1 + f2) % mx;
 		sumo = f10 + f20 + (f1 + f2) / mx;
@@ -57,7 +57,7 @@ int main(void)
 		if (count != 98)
 			printf(",");
 		else
-			printf ("\n")
+			printf("\n")
 }
 return (0);
 
