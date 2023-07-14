@@ -6,7 +6,7 @@
  * @max: max int
  * Return: array of integers
 */
-int *array_rang(int min, int max)
+int *array_range(int min, int max)
 {
 	int len, i;
 	int *ptr;
