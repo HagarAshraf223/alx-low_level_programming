@@ -20,7 +20,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 /**
  * *_calloc - allocates memory for an array, using malloc
- * @nmemb: array lenght
+ * @nmemb: array length
  * @size: size of each element
  * Return: pointer
 */
